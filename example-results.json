@@ -1,0 +1,38 @@
+{
+  "metrics": {
+    "http_req_duration": {
+      "avg": 212.5,
+      "min": 95.3,
+      "max": 780.4,
+      "p90": 350.2,
+      "p95": 410.7
+    },
+    "http_req_failed": {
+      "rate": 0.015,
+      "count": 15
+    },
+    "iterations": {
+      "count": 1000
+    },
+    "vus": {
+      "max": 50,
+      "min": 1
+    },
+    "data_received": {
+      "bytes": 10485760
+    },
+    "data_sent": {
+      "bytes": 5242880
+    },
+    "checks": {
+      "passes": 985,
+      "fails": 15
+    }
+  },
+  "metadata": {
+    "test_run_id": "abc123",
+    "timestamp": "2025-11-13T23:30:00Z",
+    "script": "load_test.js",
+    "duration_seconds": 60
+  }
+}
